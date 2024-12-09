@@ -38,7 +38,7 @@ int32 distance_offset_cm;                               //距离校准，单位c
 uint8_t sos = 0;
 uint8_t alarm = 0;
 uint8_t battery = 0;
-int user_data[10];
+int user_data[80];
 uint8_t USE_IMU;
 
 #if defined(ANCRANGE)
@@ -109,6 +109,7 @@ void set_instance(void)
 #endif
         dwt_forcetrxoff();
         state = STA_IDLE;
+        state = STA_SEND_TEST;
     }
 }
 
@@ -119,7 +120,7 @@ void DW3000_init(void)
 	uint8_t e2prom_data_read[EEP_UNIT_SIZE] = {0};
     uint8_t e2prom_data_write[EEP_UNIT_SIZE] = {0};
 
-    static dwt_config_t config1 = {
+    static dwt_config_t config1_ = {
         .chan = 5,                           /* Channel number. */
         .txPreambLength = DWT_PLEN_256,      /* Preamble length. Used in TX only. */
         .rxPAC = DWT_PAC16,                  /* Preamble acquisition chunk size. Used in RX only. */
@@ -129,6 +130,24 @@ void DW3000_init(void)
         .dataRate = DWT_BR_850K,             /* Data rate. */
         .phrMode = DWT_PHRMODE_STD,          /* PHY header mode. */
         .phrRate = DWT_PHRRATE_STD,          /* PHY header rate. */
+        .sfdTO = (257 + 16 - 16),            /* SFD timeout (preamble length + 1 + SFD length - PAC size). Used in RX only. */
+        .stsMode = DWT_STS_MODE_1 | DWT_STS_MODE_SDC, /* STS mode 1 with SDC*/
+        .stsLength = DWT_STS_LEN_256,        /* STS length see allowed values in Enum dwt_sts_lengths_e */
+ 
+        .pdoaMode = DWT_PDOA_M0              /* PDOA mode 3 */
+
+    };
+
+    static dwt_config_t config1 = {
+        .chan = 5,                           /* Channel number. */
+        .txPreambLength = DWT_PLEN_256,      /* Preamble length. Used in TX only. */
+        .rxPAC = DWT_PAC16,                  /* Preamble acquisition chunk size. Used in RX only. */
+        .txCode = 9,                         /* TX preamble code. Used in TX only. */
+        .rxCode = 9,                         /* RX preamble code. Used in RX only. */
+        .sfdType = 1,                        /* 0 to use standard 8 symbol SFD, 1 to use non-standard 8 symbol, 2 for non-standard 16 symbol SFD and 3 for 4z 8 symbol SDF type */
+        .dataRate = DWT_BR_6M8,             /* Data rate. */
+        .phrMode = DWT_PHRMODE_EXT,          /* PHY header mode. */
+        .phrRate = DWT_PHRRATE_DTA,          /* PHY header rate. */
         .sfdTO = (257 + 16 - 16),            /* SFD timeout (preamble length + 1 + SFD length - PAC size). Used in RX only. */
         .stsMode = DWT_STS_MODE_1 | DWT_STS_MODE_SDC, /* STS mode 1 with SDC*/
         .stsLength = DWT_STS_LEN_256,        /* STS length see allowed values in Enum dwt_sts_lengths_e */
@@ -573,7 +592,7 @@ void dw_main(void)
     //打印系统参数信息
     print_config();
 
-    MX_IWDG_Init();
+    // MX_IWDG_Init();
 
     while(1)//测距功能实现，按角色执行基站状态机或标签状态机
     {
@@ -586,7 +605,8 @@ void dw_main(void)
         {
             tag_app();
         }
-        
+        continue;
+    
         if(range_status == RANGE_TWR_OK) //TWR测距有效，进行数据滤波和打包输出、屏显
         {
             range_status = RANGE_NULL;//清空标志位

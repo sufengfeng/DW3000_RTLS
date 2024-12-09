@@ -42,7 +42,7 @@ extern "C" {
 #define WAIT_500uSEC    Sleep(1)/*This is should be a delay of 500uSec at least. In our example it is more than that*/
 
 
-#define BUFFLEN 	(64)   //(4096+128)
+#define BUFFLEN 	(1024)   //(4096+128)
 #define BUF_SIZE	(64)
 
 typedef uint64_t        uint64;

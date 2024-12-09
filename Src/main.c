@@ -84,21 +84,21 @@ int main(void)
   MX_SPI1_Init();
   MX_USART2_UART_Init();
   MX_I2C1_Init();
-  MX_IWDG_Init();
+  // MX_IWDG_Init();
   /* USER CODE BEGIN 2 */
 	USE_OLED = SSD1306_Init();
 #if defined(USE_IMU_IC)
 	USE_IMU = Icm42605Init();
 #endif
   
-  USE_EXT_EEPROM = e2prom_Init();
+  // USE_EXT_EEPROM = e2prom_Init();
 
   __HAL_UART_ENABLE_IT(&huart2, UART_IT_IDLE);
   HAL_UART_Receive_DMA(&huart2, &UART_RX_BUF[0], sizeof(UART_RX_BUF));
 
   port_DisableEXT_IRQ();
   setup_DWICRSTnIRQ(0);
-	MX_IWDG_Init();
+	// MX_IWDG_Init();
   dw_main();
   /* USER CODE END 2 */
 
@@ -182,6 +182,9 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* User can add his own implementation to report the file name and line number,
      tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
   /* USER CODE END 6 */
+	while(1){
+		
+	}
 }
 #endif /* USE_FULL_ASSERT */
 

@@ -1,0 +1,1171 @@
+
+[14:21:20.176]收←◆
+**********************DEVICE CONFIG**********************
+* model = ULM3
+* firmware = V70
+* role = ANCHOR
+* addr = 1
+* blink = 0
+* max_anc_num = 4
+* max_tag_num = 1
+* uwb_data_rate = 6.8M
+* channel = CH5
+* update_frequency = 100Hz
+* update_Period = 10ms
+* kalmanfilter = 1
+* ant_dly = 16375
+* tx_power = ffffffff
+* use_ext_eeprom = 0
+* use_imu = 0
+* group_id = 0
+***************************END***************************
+
+[14:21:21.210]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 308
+
+[14:21:22.214]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 617
+
+[14:21:23.217]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 926
+
+[14:21:24.220]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 1235
+
+[14:21:25.224]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 1543
+
+[14:21:26.227]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 1851
+
+[14:21:27.230]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 2160
+
+[14:21:28.236]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 2470
+
+[14:21:29.242]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 2780
+
+[14:21:30.245]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 3089
+
+[14:21:31.251]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 3399
+
+[14:21:32.254]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 3708
+
+[14:21:33.258]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 4016
+
+[14:21:34.261]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 4325
+
+[14:21:35.263]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 4632
+
+[14:21:36.267]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 4941
+
+[14:21:37.270]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 5250
+
+[14:21:38.272]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 5558
+
+[14:21:39.282]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 5867
+
+[14:21:40.306]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 6175
+
+[14:21:41.283]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 6484
+
+[14:21:42.289]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 6794
+
+[14:21:43.292]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 7103
+
+[14:21:44.295]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 7411
+
+[14:21:45.298]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 7720
+
+[14:21:46.302]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 8028
+
+[14:21:47.306]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 8337
+
+[14:21:48.309]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 8646
+
+[14:21:49.313]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 8954
+
+[14:21:50.315]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 9263
+
+[14:21:51.318]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 9571
+
+[14:21:52.322]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 9880
+
+[14:21:53.324]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 10188
+
+[14:21:54.327]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 10496
+
+[14:21:55.330]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 10805
+
+[14:21:56.335]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 11114
+
+[14:21:57.334]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 11421
+
+[14:21:58.169]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:21:58.344]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 11729
+
+[14:21:59.345]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 12037
+
+[14:22:00.349]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 12346
+
+[14:22:01.353]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 12654
+
+[14:22:02.355]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 12962
+
+[14:22:03.359]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 13271
+
+[14:22:04.362]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 13580
+
+[14:22:05.363]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 13887
+
+[14:22:06.367]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 14194
+
+[14:22:07.368]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 14502
+
+[14:22:08.370]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 14811
+
+[14:22:09.375]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 15120
+
+[14:22:10.380]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 15430
+
+[14:22:11.383]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 15738
+
+[14:22:12.389]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 16048
+
+[14:22:13.397]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 16359
+
+[14:22:14.403]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 16669
+
+[14:22:15.255]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or
+[14:22:15.274]收←◆ RX_ERROR
+
+[14:22:15.413]收←◆Correct fra
+[14:22:15.432]收←◆me rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 16979
+
+[14:22:16.416]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 17288
+
+[14:22:17.421]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 17598
+
+[14:22:18.427]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 17907
+
+[14:22:19.432]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 18217
+
+[14:22:20.436]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 18526
+
+[14:22:21.441]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 18836
+
+[14:22:22.448]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 19145
+
+[14:22:23.452]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 19455
+
+[14:22:24.457]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 19765
+
+[14:22:25.463]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 20075
+
+[14:22:26.468]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 20385
+
+[14:22:27.471]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 20693
+
+[14:22:28.472]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 21000
+
+[14:22:29.477]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 21310
+
+[14:22:30.482]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 21619
+
+[14:22:31.487]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 21929
+
+[14:22:32.492]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 22239
+
+[14:22:33.496]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 22547
+
+[14:22:34.500]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 22856
+
+[14:22:35.505]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 23166
+
+[14:22:36.511]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 23476
+
+[14:22:37.516]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 23785
+
+[14:22:38.522]收←◆Correct frame 
+[14:22:38.540]收←◆rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 24095
+
+[14:22:39.527]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 24405
+
+[14:22:40.533]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 24715
+
+[14:22:41.143]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:22:41.544]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 25026
+
+[14:22:42.549]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 25336
+
+[14:22:43.556]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 25646
+
+[14:22:44.561]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 25956
+
+[14:22:45.565]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 26265
+
+[14:22:46.571]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 26575
+
+[14:22:47.574]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 26884
+
+[14:22:48.577]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 27192
+
+[14:22:49.580]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 27500
+
+[14:22:50.585]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 27809
+
+[14:22:51.590]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 28119
+
+[14:22:52.595]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 28429
+
+[14:22:53.596]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 28737
+
+[14:22:54.602]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 29046
+
+[14:22:55.607]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 29354
+
+[14:22:56.609]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 29663
+
+[14:22:57.615]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 29973
+
+[14:22:58.620]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 30283
+
+[14:22:59.626]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 30593
+
+[14:23:00.632]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 30903
+
+[14:23:01.637]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 31213
+
+[14:23:02.641]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 31522
+
+[14:23:03.646]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 31832
+
+[14:23:04.653]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 32142
+
+[14:23:05.659]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 32452
+
+[14:23:06.664]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 32762
+
+[14:23:07.670]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 33072
+
+[14:23:08.676]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 33382
+
+[14:23:09.679]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 33691
+
+[14:23:10.685]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 34000
+
+[14:23:10.771]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:23:11.692]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 34309
+
+[14:23:12.694]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 34617
+
+[14:23:13.697]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 34925
+
+[14:23:14.699]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 35233
+
+[14:23:15.702]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 35541
+
+[14:23:16.704]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 35849
+
+[14:23:16.750]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:23:17.713]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 36158
+
+[14:23:18.719]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 36468
+
+[14:23:19.723]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 36777
+
+[14:23:20.726]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 37086
+
+[14:23:21.729]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 37394
+
+[14:23:22.004]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:23:22.506]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:23:22.745]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 37704
+
+[14:23:23.747]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 38013
+
+[14:23:24.164]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:23:24.756]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 38322
+
+[14:23:25.762]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 38632
+
+[14:23:26.306]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:23:26.771]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 38942
+
+[14:23:27.774]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 39250
+
+[14:23:28.779]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 39558
+
+[14:23:29.190]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:23:29.786]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 39867
+
+[14:23:30.791]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 40177
+
+[14:23:31.796]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 40487
+
+[14:23:32.001]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:23:32.809]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 40798
+
+[14:23:33.814]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 41108
+
+[14:23:34.819]收←◆Correct frame ra
+[14:23:34.836]收←◆te: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 41417
+
+[14:23:35.824]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 41727
+
+[14:23:36.828]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 42036
+
+[14:23:37.834]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 42346
+
+[14:23:38.839]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 42656
+
+[14:23:39.844]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 42966
+
+[14:23:40.851]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 43276
+
+[14:23:41.856]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 43586
+
+[14:23:42.862]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 43896
+
+[14:23:43.864]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 44204
+
+[14:23:44.867]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 44512
+
+[14:23:45.874]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 44821
+
+[14:23:46.877]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 45131
+
+[14:23:47.882]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 45441
+
+[14:23:48.888]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 45751
+
+[14:23:49.894]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 46061
+
+[14:23:50.897]收←◆C
+[14:23:50.917]收←◆orrect frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 46370
+
+[14:23:51.903]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 46679
+
+[14:23:52.908]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 46989
+
+[14:23:53.912]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 47298
+
+[14:23:54.918]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 47608
+
+[14:23:55.924]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 47918
+
+[14:23:56.930]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 48228
+
+[14:23:57.936]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 48538
+
+[14:23:58.941]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 48848
+
+[14:23:59.947]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 49158
+
+[14:24:00.609]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:00.956]收←◆Correct 
+[14:24:00.979]收←◆frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 49468
+
+[14:24:01.960]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 49777
+
+[14:24:02.403]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:02.973]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 50087
+
+[14:24:03.973]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 50395
+
+[14:24:04.609]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:04.981]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 50704
+
+[14:24:05.988]收←◆Correct frame
+[14:24:06.019]收←◆ rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 51014
+
+[14:24:06.994]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 51324
+
+[14:24:07.997]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 51633
+
+[14:24:08.387]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:09.007]收←◆Correct frame
+[14:24:09.026]收←◆ rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 51942
+
+[14:24:10.013]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 52252
+
+[14:24:11.013]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 52560
+
+[14:24:12.020]收←◆Correct frame
+[14:24:12.040]收←◆ rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 52870
+
+[14:24:12.277]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:12.646]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or
+[14:24:12.669]收←◆ RX_ERROR
+
+[14:24:13.033]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 53179
+
+[14:24:14.034]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 53487
+
+[14:24:14.071]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:15.043]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 53796
+
+[14:24:15.335]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or
+[14:24:15.352]收←◆ RX_ERROR
+
+[14:24:16.052]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 54105
+
+[14:24:17.058]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 54415
+
+[14:24:18.063]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 54725
+
+[14:24:19.067]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 55034
+
+[14:24:20.073]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 55344
+
+[14:24:21.077]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 55653
+
+[14:24:22.079]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 55961
+
+[14:24:23.085]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 56271
+
+[14:24:24.088]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 56579
+
+[14:24:25.093]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 56889
+
+[14:24:26.099]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 57199
+
+[14:24:27.105]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 57509
+
+[14:24:27.578]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:28.113]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 57818
+
+[14:24:29.120]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 58128
+
+[14:24:30.122]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 58437
+
+[14:24:31.126]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 58745
+
+[14:24:32.131]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 59055
+
+[14:24:33.137]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 59365
+
+[14:24:34.143]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 59675
+
+[14:24:35.149]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 59985
+
+[14:24:35.281]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:36.157]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 60294
+
+[14:24:37.163]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 60604
+
+[14:24:38.169]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 60913
+
+[14:24:39.168]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 61221
+
+[14:24:40.172]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 61529
+
+[14:24:41.178]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 61839
+
+[14:24:42.181]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 62148
+
+[14:24:43.183]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 62456
+
+[14:24:44.190]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 62766
+
+[14:24:45.191]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 63074
+
+[14:24:46.194]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 63382
+
+[14:24:47.200]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 63692
+
+[14:24:48.204]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 64001
+
+[14:24:49.207]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 64309
+
+[14:24:49.640]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:50.217]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 64619
+
+[14:24:51.222]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 64929
+
+[14:24:52.227]收←◆Correct
+[14:24:52.245]收←◆ frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 65238
+
+[14:24:53.232]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 65548
+
+[14:24:54.236]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 65857
+
+[14:24:55.241]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 66167
+
+[14:24:56.247]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 66476
+
+[14:24:57.253]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 66786
+
+[14:24:58.258]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 67096
+
+[14:24:59.187]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:24:59.267]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 67406
+
+[14:25:00.272]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 67715
+
+[14:25:01.278]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 68025
+
+[14:25:02.282]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 68334
+
+[14:25:03.214]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:25:03.290]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 68644
+
+[14:25:04.299]收←◆Correct frame 
+[14:25:04.327]收←◆rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 68953
+
+[14:25:05.301]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 69263
+
+[14:25:06.307]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 69573
+
+[14:25:07.313]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 69883
+
+[14:25:08.319]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 70193
+
+[14:25:09.325]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 70503
+
+[14:25:10.328]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 70812
+
+[14:25:11.334]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 71122
+
+[14:25:12.337]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 71431
+
+[14:25:13.340]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 71739
+
+[14:25:14.343]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 72047
+
+[14:25:15.348]收←◆Correct frame ra
+[14:25:15.369]收←◆te: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 72356
+
+[14:25:16.353]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 72666
+
+[14:25:17.359]收←◆Correct frame 
+[14:25:17.387]收←◆rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 72976
+
+[14:25:18.099]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:25:18.367]收←◆Cor
+[14:25:18.391]收←◆rect frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 73285
+
+[14:25:19.370]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 73593
+
+[14:25:20.374]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 73903
+
+[14:25:21.360]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 74213
+
+[14:25:22.390]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 74522
+
+[14:25:22.817]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:25:23.399]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 74832
+
+[14:25:24.405]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 75142
+
+[14:25:25.411]收←◆Correct fra
+[14:25:25.431]收←◆me rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 75452
+
+[14:25:26.416]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 75762
+
+[14:25:27.420]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 76071
+
+[14:25:28.424]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 76380
+
+[14:25:29.427]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 76688
+
+[14:25:30.433]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 76998
+
+[14:25:31.363]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:25:31.440]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 77307
+
+[14:25:32.445]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 77616
+
+[14:25:33.451]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 77926
+
+[14:25:34.455]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 78235
+
+[14:25:35.460]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 78544
+
+[14:25:36.464]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 78853
+
+[14:25:36.518]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:25:37.469]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 79161
+
+[14:25:38.472]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 79469
+
+[14:25:39.475]收←◆Correc
+[14:25:39.493]收←◆t frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 79777
+
+[14:25:40.481]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 80087
+
+[14:25:41.483]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 80395
+
+[14:25:42.486]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 80703
+
+[14:25:43.491]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 81013
+
+[14:25:44.498]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 81323
+
+[14:25:45.501]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 81631
+
+[14:25:46.501]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 81939
+
+[14:25:47.504]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 82247
+
+[14:25:48.004]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:25:48.512]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 82556
+
+[14:25:49.519]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 82866
+
+[14:25:50.522]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 83175
+
+[14:25:51.525]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 83483
+
+[14:25:52.530]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 83791
+
+[14:25:53.534]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 84101
+
+[14:25:54.537]收←◆Correct f
+[14:25:54.557]收←◆rame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 84409
+
+[14:25:55.543]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 84719
+
+[14:25:56.364]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:25:56.553]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 85030
+
+[14:25:57.557]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 85339
+
+[14:25:58.559]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 85647
+
+[14:25:59.562]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 85955
+
+[14:26:00.568]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 86265
+
+[14:26:01.575]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 86575
+
+[14:26:02.576]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 86883
+
+[14:26:03.580]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 87191
+
+[14:26:04.585]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 87501
+
+[14:26:05.588]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 87810
+
+[14:26:06.591]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 88118
+
+[14:26:07.597]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 88428
+
+[14:26:08.603]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 88738
+
+[14:26:09.606]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 89047
+
+[14:26:10.613]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 89357
+
+[14:26:11.614]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 89665
+
+[14:26:12.618]收←◆Correct fram
+[14:26:12.649]收←◆e rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 89973
+
+[14:26:13.621]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 90282
+
+[14:26:14.624]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 90590
+
+[14:26:15.628]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 90899
+
+[14:26:16.633]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 91208
+
+[14:26:17.639]收←◆Correct frame 
+[14:26:17.665]收←◆rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 91518
+
+[14:26:18.645]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 91828
+
+[14:26:19.650]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 92138
+
+[14:26:20.429]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:26:20.658]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 92447
+
+[14:26:21.662]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 92757
+
+[14:26:22.665]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 93065
+
+[14:26:23.277]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:26:23.675]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 93374
+
+[14:26:24.682]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 93684
+
+[14:26:25.684]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 93993
+
+[14:26:26.686]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 94301
+
+[14:26:27.689]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 94609
+
+[14:26:28.691]收←◆Correct f
+[14:26:28.712]收←◆rame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 94916
+
+[14:26:29.696]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 95226
+
+[14:26:29.750]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:26:30.703]收←◆Corre
+[14:26:30.732]收←◆ct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 95534
+
+[14:26:31.033]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:26:31.711]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 95843
+
+[14:26:32.718]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 96153
+
+[14:26:33.720]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 96462
+
+[14:26:34.724]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 96770
+
+[14:26:35.729]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 97080
+
+[14:26:36.522]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:26:36.630]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:26:36.740]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 97388
+
+[14:26:37.743]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 97696
+
+[14:26:38.746]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 98005
+
+[14:26:39.749]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 98313
+
+[14:26:40.752]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 98621
+
+[14:26:41.757]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 98931
+
+[14:26:42.178]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or
+[14:26:42.200]收←◆ RX_ERROR
+
+[14:26:42.769]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 99241
+
+[14:26:43.769]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 99549
+
+[14:26:44.773]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 99857
+
+[14:26:45.779]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 100167
+
+[14:26:46.781]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 100475
+
+[14:26:46.931]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:26:47.790]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 100784
+
+[14:26:48.796]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 101093
+
+[14:26:49.795]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 101401
+
+[14:26:50.799]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 101709
+
+[14:26:51.806]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 102019
+
+[14:26:52.809]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 102328
+
+[14:26:53.812]收←◆Correct
+[14:26:53.838]收←◆ frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 102636
+
+[14:26:54.817]收←◆Correct frame rat
+[14:26:54.840]收←◆e: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 102945
+
+[14:26:55.820]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 103254
+
+[14:26:56.823]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 103563
+
+[14:26:57.829]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 103872
+
+[14:26:58.834]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 104182
+
+[14:26:59.841]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 104492
+
+[14:27:00.846]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 104802
+
+[14:27:01.850]收←◆Co
+[14:27:01.872]收←◆rrect frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 105111
+
+[14:27:02.853]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 105419
+
+[14:27:03.854]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 105726
+
+[14:27:04.860]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 106036
+
+[14:27:05.866]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 106346
+
+[14:27:06.870]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 106655
+
+[14:27:07.533]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:27:07.872]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 106962
+
+[14:27:08.881]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 107270
+
+[14:27:09.209]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:27:09.891]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 107579
+
+[14:27:10.897]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 107888
+
+[14:27:11.898]收←◆Correc
+[14:27:11.930]收←◆t frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 108196
+
+[14:27:12.898]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 108503
+
+[14:27:13.206]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:27:13.908]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 108813
+
+[14:27:14.915]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 109123
+
+[14:27:15.918]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 109432
+
+[14:27:16.921]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 109740
+
+[14:27:17.925]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 110049
+
+[14:27:18.927]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 110357
+
+[14:27:19.930]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 110665
+
+[14:27:20.122]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:27:20.939]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 110974
+
+[14:27:21.941]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 111282
+
+[14:27:22.944]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 111590
+
+[14:27:23.951]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 111900
+
+[14:27:24.956]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 112209
+
+[14:27:25.957]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 112517
+
+[14:27:26.960]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 112826
+
+[14:27:27.965]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 113134
+
+[14:27:28.970]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 113444
+
+[14:27:29.974]收←◆Corr
+[14:27:29.997]收←◆ect frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 113753
+
+[14:27:30.978]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 114062
+
+[14:27:31.983]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 114371
+
+[14:27:32.986]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 114679
+
+[14:27:33.989]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 114988
+
+[14:27:34.993]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 115296
+
+[14:27:35.996]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 115605
+
+[14:27:37.000]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 115914
+
+[14:27:38.004]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 116222
+
+[14:27:39.008]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 116532
+
+[14:27:40.012]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 116841
+
+[14:27:41.018]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 117150
+
+[14:27:42.024]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 117460
+
+[14:27:43.029]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 117770
+
+[14:27:44.034]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 118079
+
+[14:27:45.039]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 118389
+
+[14:27:46.045]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 118699
+
+[14:27:46.518]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:27:47.057]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 119010
+
+[14:27:48.061]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 119319
+
+[14:27:49.067]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 119629
+
+[14:27:50.073]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 119939
+
+[14:27:51.074]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 120247
+
+[14:27:52.079]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 120556
+
+[14:27:53.087]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 120866
+
+[14:27:54.092]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 121176
+
+[14:27:55.097]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 121486
+
+[14:27:56.101]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 121795
+
+[14:27:57.107]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 122105
+
+[14:27:58.110]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 122414
+
+[14:27:59.117]收←◆Correct frame rate: 1.00Abnormal
+[14:27:59.135]收←◆ frame rate: 0.00Number of abnormal data: 0receive_count : 122722
+
+[14:28:00.118]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 123031
+
+[14:28:01.125]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 123341
+
+[14:28:02.130]收←◆Corre
+[14:28:02.157]收←◆ct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 123651
+
+[14:28:03.134]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 123959
+
+[14:28:04.134]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 124267
+
+[14:28:05.136]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 124574
+
+[14:28:06.138]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 124882
+
+[14:28:07.141]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 125190
+
+[14:28:08.145]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 125498
+
+[14:28:09.150]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 125808
+
+[14:28:10.156]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 126118
+
+[14:28:11.162]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 126428
+
+[14:28:12.165]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 126736
+
+[14:28:13.168]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 127044
+
+[14:28:14.171]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 127353
+
+[14:28:15.177]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 127663
+
+[14:28:16.185]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 127973
+
+[14:28:17.186]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 128282
+
+[14:28:18.189]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 128590
+
+[14:28:19.192]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 128898
+
+[14:28:20.197]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 129208
+
+[14:28:21.204]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 129518
+
+[14:28:22.206]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 129826
+
+[14:28:23.210]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 130135
+
+[14:28:24.213]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 130443
+
+[14:28:25.219]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 130752
+STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:28:26.224]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 131060
+
+[14:28:27.228]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 131368
+
+[14:28:28.229]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 131676
+
+[14:28:29.232]收←◆Correct 
+[14:28:29.263]收←◆frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 131984
+
+[14:28:30.238]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 132294
+
+[14:28:31.245]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 132604
+
+[14:28:32.248]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 132913
+
+[14:28:33.254]收←◆Correct fr
+[14:28:33.276]收←◆ame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 133223
+
+[14:28:34.261]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 133533
+
+[14:28:35.267]收←◆Correct frame 
+[14:28:35.293]收←◆rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 133843
+
+[14:28:36.273]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 134153
+
+[14:28:37.275]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 134462
+
+[14:28:38.279]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 134770
+
+[14:28:38.943]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:28:39.288]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 135079
+
+[14:28:40.290]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 135387
+
+[14:28:41.292]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 135695
+
+[14:28:42.295]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 136003
+
+[14:28:43.296]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 136311
+
+[14:28:44.300]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 136619
+
+[14:28:45.303]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 136927
+
+[14:28:46.309]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 137237
+
+[14:28:47.316]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 137547
+
+[14:28:48.003]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:28:48.324]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 137857
+
+[14:28:49.326]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 138164
+
+[14:28:50.329]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 138473
+
+[14:28:51.332]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 138781
+
+[14:28:52.334]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 139089
+
+[14:28:53.338]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 139397
+
+[14:28:54.344]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 139707
+
+[14:28:55.347]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 140016
+
+[14:28:56.351]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 140324
+
+[14:28:57.354]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 140632
+
+[14:28:58.355]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 140940
+
+[14:28:59.359]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 141248
+
+[14:29:00.363]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 141557
+
+[14:29:01.364]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 141865
+
+[14:29:02.371]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 142174
+
+[14:29:03.376]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 142484
+
+[14:29:04.381]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 142794
+
+[14:29:05.387]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 143104
+
+[14:29:06.392]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 143414
+
+[14:29:07.397]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 143723
+
+[14:29:08.403]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 144033
+
+[14:29:08.528]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:29:09.412]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 144342
+
+[14:29:09.530]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:29:10.417]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 144650
+
+[14:29:11.421]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 144958
+
+[14:29:12.424]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 145266
+
+[14:29:13.426]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 145574
+
+[14:29:14.428]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 145882
+
+[14:29:15.430]收←◆Correct f
+[14:29:15.457]收←◆rame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 146189
+
+[14:29:16.436]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 146499
+
+[14:29:17.443]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 146809
+
+[14:29:18.448]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 147119
+
+[14:29:19.451]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 147428
+
+[14:29:20.454]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 147736
+
+[14:29:21.460]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 148046
+
+[14:29:22.466]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 148356
+
+[14:29:23.472]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 148666
+
+[14:29:24.003]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:29:24.480]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 148975
+
+[14:29:24.869]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:29:25.486]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 149282
+
+[14:29:26.491]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 149592
+
+[14:29:27.116]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:29:27.497]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 149900
+
+[14:29:27.966]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:29:28.508]收←◆Correct f
+[14:29:28.527]收←◆rame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 150209
+
+[14:29:29.070]收←◆STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR
+
+[14:29:29.516]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 150519
+
+[14:29:30.520]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 150827
+
+[14:29:31.522]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 151135
+
+[14:29:32.526]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 151444
+
+[14:29:33.530]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 151753
+
+[14:29:34.532]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 152061
+
+
+接收端
+
+[14:29:35.536]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 152369
+
+[14:29:36.543]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 152679
+
+[14:29:37.545]收←◆Correct frame rate: 1.00Abnormal frame rate: 0.00Number of abnormal data: 0receive_count : 152988
+
+目前152988条数据，正确率是100%，无接收错误数据，
+完整接收并处理 308条/s
+
+发送端
+[14:39:14.781]收←◆coounter:9648001
+
+[14:39:15.104]收←◆coounter:9648201
+
+[14:39:15.427]收←◆coounter:9648401
+
+323ms发送200条
+完整发送619条/s
+

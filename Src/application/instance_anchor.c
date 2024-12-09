@@ -14,7 +14,7 @@ static uint8_t tx_resp_msg[RESP_MSG_LEN] = {0x41, 0x88, 0, 0xCA, 0xDE, 0x00, 0x0
 static uint8_t tx_sync_msg[SYNC_MSG_LEN] = {0x41, 0x88, 0, 0xCA, 0xDE, 0x00, 0x80, 0x00, 0x80, FUNC_CODE_SYNC};
 #endif
 /* 接收数据buffer */
-static uint8_t rx_buffer[FRAME_LEN_MAX];
+static uint8_t rx_buffer[FRAME_LEN_MAX_EX];
 
 /* TWR时间戳，用于计算飞行时间 */
 static uint64_t poll_rx_ts;    
@@ -38,8 +38,77 @@ static uint8_t sr, rr; //用于控制当前基站处于resp时是发送还是接
 static int16_t stsqual;//STS数据接收质量
 #endif
 
+
+#define MAX_AHCHOR_NUMBER_ 80
+
+// 全局变量记录接收次数
+uint32_t receive_count = 0;
+// 全局变量记录异常数据个数
+uint32_t abnormal_data_count = 0;
+// 全局变量记录正确帧率和异常帧率相关计数
+uint32_t correct_frame_count = 0;
+uint32_t abnormal_frame_count = 0;
+
+// 检查接收数据一致性的函数
+uint32_t checkDataConsistency(uint8_t* rx_buffer) {
+    uint32_t inconsistent_count = 0;
+    uint8_t seq_nb = rx_buffer[SEQ_NB_IDX];
+    uint8_t range_nb = rx_buffer[RANGE_NB_IDX];
+
+    // 检查seq_nb和range_nb与接收次数的一致性
+
+    // if (seq_nb!= (receive_count % 256) || range_nb!= ((receive_count / 256) % 256)) {
+    //     inconsistent_count++;        
+    //     printf("Inconsistent data:[%d][%d][%d]\n",receive_count,seq_nb, range_nb);
+    // }
+
+    uint32_t user_data[MAX_AHCHOR_NUMBER_];
+    for (int i = 0; i < MAX_AHCHOR_NUMBER_-1; i++) {
+        user_data[i] = *((uint32_t*)(rx_buffer + FINAL_MSG_RESP1_RX_TS_IDX + 4 * i));
+        // 检查user_data每个元素是否符合预期格式（预期是0x56abcdef + i）
+        uint32_t expected_data = 0x56abcdef + i;
+        if (user_data[i]!= expected_data) {
+            inconsistent_count++;
+            abnormal_data_count++;
+            // 输出异常数据（可根据实际需求调整输出格式等）
+            printf("Abnormal data: 0x%X (Expected: 0x%X)\n", user_data[i], expected_data);
+        }
+    }
+
+    if (inconsistent_count == 0) {
+        correct_frame_count++;
+    } else {
+        abnormal_frame_count++;
+    }
+
+    receive_count++;
+    return inconsistent_count;
+}
+#define MAX_TIMEOUT 263095    // 最大超时次数
+// 模拟间隔1秒打印信息的函数（通过简单循环计数模拟时间，实际应用可结合定时器等精确控制时间）
+void printInfoPeriodically() {
+    static uint32_t loop_count = 0;
+    if (loop_count++ >= MAX_TIMEOUT) {
+            
+            double correct_frame_rate = (double)correct_frame_count / (correct_frame_count + abnormal_frame_count);
+            double abnormal_frame_rate = (double)abnormal_frame_count / (correct_frame_count + abnormal_frame_count);
+            printf("Correct frame rate: %.2f", correct_frame_rate);
+            printf("Abnormal frame rate: %.2f", abnormal_frame_rate);
+            printf("Number of abnormal data: %u", abnormal_data_count);
+            printf("receive_count : %ld\n", receive_count);
+
+            // 重置计数，准备下一轮统计
+            correct_frame_count = 0;
+            abnormal_frame_count = 0;
+            abnormal_data_count = 0;
+            loop_count = 0;
+        
+    }
+}
+
 void anchor_app(void)
 {
+    printInfoPeriodically();
     switch (state)
     {
         case STA_INIT_POLL_SYNC: //初始化接收机，接收poll消息
@@ -69,51 +138,35 @@ void anchor_app(void)
             if(rx_status == RX_OK)                                  //接收到数据
             {
                 rx_status = RX_WAIT;
-#if defined(ULM3) || defined (ULM3_PA)
-                if(dwt_readstsquality(&stsqual) < 0) //if STS is not good
-                {
-                    state = STA_INIT_POLL_SYNC;
-                }
-                else
-#endif
-                {
-                    state = STA_RECV_POLL_SYNC;
-                }
+                state = STA_RECV_TEST_RESP;
             }
             else if((rx_status == RX_TIMEOUT) || (rx_status == RX_ERROR))  //接收数据错误，重新开启接收
             {
                 state = STA_INIT_POLL_SYNC;
-                //led_toggle(LED1);
+                printf("STA_WAIT_POLL_SYNC RX_TIMEOUT or RX_ERROR\r\n");
             }
-#if defined (ANCRANGE) //设置基站间测距模式开启 1=开始 2=运行中 0=停止
-            static uint32_t next_sync_time = 0;                     //基站A0下次广播并启动测距的时间
-
-            if(dev_id == 0)  //基站A0定时发送数据，轮发其他基站启动测距
-            {
-                if((portGetTickCnt() > (next_sync_time)) && (ancrange_flag == 2)) //通知下一个基站
-                {
-                    ancrange_flag = 1;
-                    target_ancid++;
-                    if(target_ancid >= MAX_AHCHOR_NUMBER)
-                    {
-                        target_ancid = 1;
-                    }
-                }
-                else if((ancrange_flag == 1) && (anc_id == 0))
-                {
-                    next_sync_time = portGetTickCnt() + inst_one_slot_time * inst_slot_number * (ANC_RANGE_COUNT + 0);
-                    ancrange_flag = 2;//设置基站间测距模式开启 1=开始 2=运行中 0=停止
-                    dwt_forcetrxoff();
-                    state = STA_SEND_SYNC;
-                    //printf("send sync\r\n");
-                    //led_toggle(LED1); 
-                    
-                }
-            }
-#endif
             break;
         }
+        case STA_RECV_TEST_RESP://接收处理测试消息帧
+            if(rx_buffer[FUNC_CODE_IDX] == FUNC_CODE_FINAL_)      //判断收到的数据是POLL
+            {
+                // uint8_t seq_nb=rx_buffer[SEQ_NB_IDX];  
+                // range_nb = rx_buffer[RANGE_NB_IDX];             //取range_nb，resp发送时发送相同的range_nb
+                // recv_tag_id = rx_buffer[SENDER_SHORT_ADD_IDX];  //取发送标签的ID
+                
+                
+                for(int i = 0; i < MAX_AHCHOR_NUMBER_; i++)  //接收用户字节
+                {
+                    user_data[i] = *((int*)(rx_buffer+FINAL_MSG_RESP1_RX_TS_IDX + 4*i));
+                }
+                checkDataConsistency(rx_buffer);
 
+                dwt_rxenable(DWT_START_RX_IMMEDIATE);         //打开接收机，等待接收数据    
+                memset(rx_buffer,0,FRAME_LEN_MAX_EX);	      
+                state = STA_WAIT_POLL_SYNC;     //等待下一个Test消息
+                //state = STA_INIT_POLL_SYNC;     //重新初始化
+            }
+            break;
 #if defined (ANCRANGE) 
         case STA_SEND_SYNC:  //A0负责发送时间戳并通知其他基站启动测距  todo 指定对方地址模式，非广播
         {
@@ -147,7 +200,6 @@ void anchor_app(void)
             break;
         }
 #endif
-
         case STA_RECV_POLL_SYNC://接收处理poll消息
             if(rx_buffer[FUNC_CODE_IDX] == FUNC_CODE_POLL)      //判断收到的数据是POLL
             {
@@ -517,9 +569,9 @@ void anchor_app(void)
 void anc_rx_ok_cb(const dwt_cb_data_t *cb_data)
 {
     rx_status = RX_OK;
-    if (cb_data->datalength <= FRAME_LEN_MAX)  //接收数据
+    if (cb_data->datalength <= FRAME_LEN_MAX_EX)  //接收数据
     {
-        dwt_readrxdata(rx_buffer, cb_data->datalength, 0);
+       dwt_readrxdata(rx_buffer, cb_data->datalength, 0);
     }
     UNUSED(cb_data);
 }

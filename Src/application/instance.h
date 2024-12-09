@@ -153,6 +153,7 @@
 #define FUNC_CODE_POLL                  0x21
 #define FUNC_CODE_RESP                  0x10
 #define FUNC_CODE_FINAL                 0x23
+#define FUNC_CODE_FINAL_                 0x24
 #define FUNC_CODE_BLINK                 0x36
 #define FUNC_CODE_INIT                  0x38
 #define FUNC_CODE_SYNC                  0x42
@@ -185,7 +186,9 @@ typedef enum
     STA_SEND_BLINK,
     STA_WAIT_INIT,
     STA_RECV_INIT,
-    STA_SEND_SYNC
+    STA_SEND_SYNC,
+    STA_SEND_TEST,
+    STA_RECV_TEST_RESP,
 } instStatus;
 
 
@@ -237,7 +240,7 @@ extern uint8_t sos;
 extern uint8_t alarm;
 extern uint8_t battery;
 extern uint8_t USE_IMU;
-extern int user_data[10];
+extern int user_data[80];
 
 
 #if defined(ANCRANGE)
