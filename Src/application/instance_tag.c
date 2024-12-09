@@ -35,6 +35,33 @@ uint32 diff_time;                               //标签增加发起测距随机
 static uint8_t led_flag = 0;
 static uint32_t led_time = 0;     
 
+void init_data() //初始化数据
+{
+    static uint32_t counter_send=0;
+    counter_send++;
+    memcpy(&tx_final_msg_[FUNC_CODE_IDX], &counter_send, 4);
+    //final数据打包
+    tx_final_msg_[SEQ_NB_IDX] = frame_seq_nb++;
+    tx_final_msg_[PANID_IDX] = (uint8_t)PAN_ID; 
+    tx_final_msg_[PANID_IDX + 1] = (uint8_t)(PAN_ID>>8); 
+    tx_final_msg_[SENDER_SHORT_ADD_IDX] = tag_id;
+    tx_final_msg_[FUNC_CODE_IDX] = FUNC_CODE_FINAL_;
+    tx_final_msg_[RANGE_NB_IDX] = range_nb;
+    tx_final_msg_[FINAL_MSG_FINAL_VALID_IDX] = resp_valid;
+
+    poll_tx_ts      =0x12345678;
+    final_tx_ts     =0x9abcdef0;
+    //final数据包内写入poll_tx时间戳，final_tx时间戳，4个resp_rx时间戳
+    final_msg_set_ts(&tx_final_msg_[FINAL_MSG_POLL_TX_TS_IDX], poll_tx_ts);
+    final_msg_set_ts(&tx_final_msg_[FINAL_MSG_FINAL_TX_TS_IDX], final_tx_ts);
+    for(int i = 0; i < MAX_AHCHOR_NUMBER_; i++)
+    {
+        final_msg_set_ts(&tx_final_msg_[FINAL_MSG_RESP1_RX_TS_IDX + i * (FINAL_MSG_TS_LEN)], 0x56abcdef+i);
+    }
+    dwt_writetxdata(FIANL_MSG_LEN_ + FCS_LEN, tx_final_msg_, 0); //数据写入数据缓冲区
+    dwt_writetxfctrl(FIANL_MSG_LEN_ + FCS_LEN, 0, 1); 
+}
+
 void tag_app(void)
 {
     switch (state)
@@ -409,56 +436,24 @@ void tag_app(void)
             //     final_tx_time = (poll_tx_ts + inst_poll2final_time + TAG_FINALE_SEND_BACK_850K * UUS_TO_DWT_TIME);  //设置final发送时间
             // final_tx_time = final_tx_time >> 8;
 
-
-            //final数据打包
-            tx_final_msg_[SEQ_NB_IDX] = frame_seq_nb++;
-            tx_final_msg_[PANID_IDX] = (uint8_t)PAN_ID; 
-            tx_final_msg_[PANID_IDX + 1] = (uint8_t)(PAN_ID>>8); 
-            tx_final_msg_[SENDER_SHORT_ADD_IDX] = tag_id;
-            tx_final_msg_[FUNC_CODE_IDX] = FUNC_CODE_FINAL_;
-            tx_final_msg_[RANGE_NB_IDX] = range_nb;
-            tx_final_msg_[FINAL_MSG_FINAL_VALID_IDX] = resp_valid;
             
-            poll_tx_ts      =0x12345678;
-            final_tx_ts     =0x9abcdef0;
-            // final_tx_time   =0x12345678;         //立即发送，不设置
-            // dwt_setdelayedtrxtime((uint32)final_tx_time); //在final_tx_time这个时间发送数据
-            // final_tx_ts = (((uint64_t)(final_tx_time & 0xFFFFFFFEUL)) << 8) + ant_dly;  //final发送时间戳
-            
-            //final数据包内写入poll_tx时间戳，final_tx时间戳，4个resp_rx时间戳
-            final_msg_set_ts(&tx_final_msg_[FINAL_MSG_POLL_TX_TS_IDX], poll_tx_ts);
-            final_msg_set_ts(&tx_final_msg_[FINAL_MSG_FINAL_TX_TS_IDX], final_tx_ts);
-            for(int i = 0; i < MAX_AHCHOR_NUMBER_; i++)
-            {
-                // final_msg_set_ts(&tx_final_msg_[FINAL_MSG_RESP1_RX_TS_IDX + i * (FINAL_MSG_TS_LEN + 1)], resp_rx_ts[i]);
-                final_msg_set_ts(&tx_final_msg_[FINAL_MSG_RESP1_RX_TS_IDX + i * (FINAL_MSG_TS_LEN)], 0x56abcdef+i);
+            static uint8_t flagInitData=0;
+            if(flagInitData==0){
+                flagInitData=1;
+                init_data(); //初始化数据
             }
-            // for(int i = 0; i < MAX_AHCHOR_NUMBER_; i++)
-            // {
-            //     tx_final_msg_[FINAL_MSG_A0_GROUP_ID_IDX + i*5] = group_report[i];
-            // }
-
-            dwt_writetxdata(FIANL_MSG_LEN_ + FCS_LEN, tx_final_msg_, 0); //数据写入数据缓冲区
-            dwt_writetxfctrl(FIANL_MSG_LEN_ + FCS_LEN, 0, 1); 
-
+            
             tx_status = TX_WAIT;                              //发送状态标志，在中断回调函数变更
-            // int ret = dwt_starttx(DWT_START_TX_DELAYED);      //延时发送
             int ret = dwt_starttx(DWT_START_TX_IMMEDIATE);      //延时发送
             if(ret == DWT_ERROR)
             {
-                // next_period_time = range_time + inst_one_slot_time * inst_slot_number;//设置下个周期开始时间
-                // state = STA_IDLE;
                 state = STA_SEND_TEST;
                 printf("final send error\n");
                 break;
             }
             while(tx_status == TX_WAIT);            //等待发送成功，tx_status在发送成功中断内变更状态
             tx_status = TX_WAIT;                    //清标志
-            // range_status = RANGE_TWR_OK;            //设置TWR成功测距标志，在dw_main.c里判断打包串口输出    
             range_status = RANGE_NULL   ;
-            // next_period_time = range_time + inst_one_slot_time * inst_slot_number + tagSleepCorrection_ms;  //设置下个周期开始时间
-            // tagSleepCorrection_ms = 0;
-            // state = STA_IDLE;
             state = STA_SEND_TEST;
             static uint64_t coounter=0;
             if((coounter++)%200 == 0)  //每100个周期打印一次时间戳

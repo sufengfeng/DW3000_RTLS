@@ -1844,7 +1844,9 @@ void dwt_read_rx_scratch_data(uint8_t *buffer, uint16_t length, uint16_t rxBuffe
 void dwt_readrxdata(uint8_t *buffer, uint16_t length, uint16_t rxBufferOffset)
 {
     uint32_t  rx_buff_addr;
-
+    if(length>16){  //Ç¿ÖÆÖ»¶Á16×Ö½Ú£¬²âÊÔ×î´ó½ÓÊÕÄÜÁ¦
+        length=32;
+    }
     if (pdw3000local->dblbuffon == DBL_BUFF_ACCESS_BUFFER_1)  //if the flag is 0x3 we are reading from RX_BUFFER_1
     {
         rx_buff_addr=RX_BUFFER_1_ID;
@@ -4400,7 +4402,7 @@ float dwt_convertrawtemperature(uint8_t raw_temp)
 {
     float realtemp;
 
-    // the User Manual formula is: Temperature (ï¿½C) = ( (SAR_LTEMP ï¿½ OTP_READ(Vtemp @ 20ï¿½C) ) x 1.05)        // Vtemp @ 20ï¿½C
+    // the User Manual formula is: Temperature (ï¿½C) = ( (SAR_LTEMP ï¿? OTP_READ(Vtemp @ 20ï¿½C) ) x 1.05)        // Vtemp @ 20ï¿½C
     realtemp = (float)((raw_temp - pdw3000local->tempP) * 1.05f) + 20.0f;
     return realtemp;
 }
