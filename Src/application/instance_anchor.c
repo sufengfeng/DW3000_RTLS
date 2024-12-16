@@ -108,6 +108,7 @@ void printInfoPeriodically() {
 
 void anchor_app(void)
 {
+    printInfoPeriodically();
     switch (state)
     {
         case STA_INIT_POLL_SYNC: //初始化接收机，接收poll消息
@@ -153,11 +154,10 @@ void anchor_app(void)
                 // range_nb = rx_buffer[RANGE_NB_IDX];             //取range_nb，resp发送时发送相同的range_nb
                 // recv_tag_id = rx_buffer[SENDER_SHORT_ADD_IDX];  //取发送标签的ID
                 
-                
-                for(int i = 0; i < MAX_AHCHOR_NUMBER_; i++)  //接收用户字节
-                {
-                    user_data[i] = *((int*)(rx_buffer+FINAL_MSG_RESP1_RX_TS_IDX + 4*i));
-                }
+                // for(int i = 0; i < MAX_AHCHOR_NUMBER_; i++)  //接收用户字节
+                // {
+                //     user_data[i] = *((int*)(rx_buffer+FINAL_MSG_RESP1_RX_TS_IDX + 4*i));
+                // }
                 checkDataConsistency(rx_buffer);
 
                 dwt_rxenable(DWT_START_RX_IMMEDIATE);         //打开接收机，等待接收数据    
@@ -567,23 +567,22 @@ uint32_t g_bFrameCnt = 0;    //接收数据帧计数
 */
 void anc_rx_ok_cb(const dwt_cb_data_t *cb_data)
 {
-    g_bFrameCnt++;
-    // rx_status = RX_OK;
+    rx_status = RX_OK;
     if (cb_data->datalength <= FRAME_LEN_MAX_EX)  //接收数据
     {
        dwt_readrxdata(rx_buffer, cb_data->datalength, 0);
     }
     if (cb_data->datalength > 16)  //接收数据
     {
-        if(g_bFrameCnt%2000==0){
-            uint32_t framNum=*((int *)(rx_buffer+FUNC_CODE_IDX));
-            if (g_bFrameCnt != framNum)
-            {
-                printf("frame error %d %d\n",g_bFrameCnt,framNum);
-                //g_bFrameCnt = framNum; //接收帧数不匹配，则强制计数器更新为当前帧号，防止丢帧
-            }
-        }
-        dwt_rxenable(DWT_START_RX_IMMEDIATE);         //打开接收机，等待接收数据       
+        g_bFrameCnt++;
+        // if(g_bFrameCnt%2000==0){
+        //     uint32_t framNum=*((int *)(rx_buffer+FUNC_CODE_IDX));
+        //     // if (g_bFrameCnt != framNum)
+        //     // {
+        //         printf("frame error %d %d\n",g_bFrameCnt,framNum);
+        //     // }
+        // }
+        //dwt_rxenable(DWT_START_RX_IMMEDIATE);         //打开接收机，等待接收数据       
     }
     UNUSED(cb_data);
 }

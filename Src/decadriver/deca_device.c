@@ -786,7 +786,7 @@ int dwt_initialise(int mode)
     uint32_t ldo_tune_lo;
     uint32_t ldo_tune_hi;
 
-    pdw3000local->dblbuffon = DBL_BUFF_OFF; // Double buffer mode off by default / clear the flag
+    pdw3000local->dblbuffon = DBL_BUFF_OFF; // Double buffer mode off by default / clear the flag    
     pdw3000local->sleep_mode = DWT_RUNSAR;  // Configure RUN_SAR on wake by default as it is needed when running PGF_CAL
     pdw3000local->spicrc = 0;
     pdw3000local->stsconfig = 0; //STS off
@@ -1844,9 +1844,9 @@ void dwt_read_rx_scratch_data(uint8_t *buffer, uint16_t length, uint16_t rxBuffe
 void dwt_readrxdata(uint8_t *buffer, uint16_t length, uint16_t rxBufferOffset)
 {
     uint32_t  rx_buff_addr;
-    if(length>16){  //强制只读16字节，测试最大接收能力
-        length=32;
-    }
+    // if(length>16){  //强制只读16字节，测试最大接收能力
+    //     length=32;
+    // }
     if (pdw3000local->dblbuffon == DBL_BUFF_ACCESS_BUFFER_1)  //if the flag is 0x3 we are reading from RX_BUFFER_1
     {
         rx_buff_addr=RX_BUFFER_1_ID;
